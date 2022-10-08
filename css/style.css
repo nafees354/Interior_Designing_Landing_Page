@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-image:linear-gradient(to right, rgba(55, 59, 68,.4), rgba(66, 134, 244,.7)), url('/images/backgroundImagee.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+min-height: 100vh;
+padding: 3% 2% 0 3%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: bolder;
+}
+[alt="logo"]{
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    width: 40%;
+    height: 30%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    width: 90%;
+    font-weight: bolder;
+}
+
+nav .list ul{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+nav .list ul li{
+    padding: 30px 50px;
+    font-size: 1em;
+    width: 90%;
+    padding-top: 5%;
+}
+
+nav .logo img{
+    width: 130px;
+}
+
+.logo img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+nav .list{
+    display: flex;
+    width: 200%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #fff;
+}
+
+
+.list .contact{
+    width: 10%;
+    display: flex;
+    padding-top: 3%;
+}
+
+.contact div h2{
+    font-size: 1em;
+}
+
+.contact div h3{
+    font-size: .9em;
+}
+
+  .body-container{
+    margin-top: 3%;
+}
+
+
+.vl{
+    border-left: 1px solid white;
+    height: 60px;
+    margin-left: 60%;
+}
+.round{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    margin-left: 55%;
+
+}
+.body-container .first{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.parent{
+    padding: 3%;
+    padding-top: 0;
+}
+.heading{
+    width: 70%;
+}
+.heading h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+.card-container .card .icon{
+    text-align: center;
+    width: 30%;
+    padding: 5% 8%;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+.card-container .card p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card-container .card{
+    width:auto ;
+    padding: 13% 11%;
+    background: rgba(168, 151, 151, 0.18);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 20px;
+    border: 1px solid rgba(168, 151, 151, 0.18);
+}
+.second{
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+.icon{
+    font-size: 20px;
+}
+.second .button{
+    width: 40%;
+}
+
+.second .button button{
+    padding: 5% 4%;
+    width: auto;
+    background: transparent;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    
+
+}
+@media only screen and (max-width: 668px) {
+.heading h1{
+    font-size: 2.4em;
+    margin-bottom: 5%;
+    margin-top: 4%;
+    
+}
+.second{
+    justify-content: end;
+
+}
+nav h1{
+    display: unset;
+    font-size: 1.4em;
+    color: white;
+}
+nav .right{
+    display: none;
+}
+nav h1{
+    display: unset;
+    font-size: 1.4em;
+    color: white;
+}
+}
